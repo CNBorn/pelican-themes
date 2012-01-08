@@ -57,37 +57,31 @@
 	{% endfor %}
 	</ul>
     {% if LINKS %}
-	<li>
-		<h3>链接</h3>
-		<ul>
-		{% for name, link in LINKS %}
-                    <li><a href="{{ link }}">{{ name }}</a></li>
-                {% endfor %}
-		</ul>
-	</li>
+    <h3>链接</h3>
+    <ul>
+    {% for name, link in LINKS %}
+                <li><a href="{{ link }}">{{ name }}</a></li>
+            {% endfor %}
+    </ul>
 	{% endif %}
 	{% if SOCIAL %}
-        <li>
-                <h3>关于作者</h3>
-                <ul>
-                    <li><a href="{{ SITEURL }}/{{ FEED }}" rel="alternate">Atom</a></li>
-                    {% if FEED_RSS %}
-                    <li><a href="{{ SITEURL }}/{{ FEED_RSS }}" rel="alternate">Rss</a></li>
-                    {% endif %}
-                {% for name, link in SOCIAL %}
-                    <li><a href="{{ link }}">{{ name }}</a></li>
-                {% endfor %}
-                </ul>
-        </li><!-- /.social -->
-        {% endif %}
-<li>
-        <h3>标签</h3>
+        <h3>关于作者</h3>
         <ul>
-        {% for tag, articles in tags %}
-                <li><a href="{{ SITEURL }}/tag/{{ tag }}.html">{{ tag }}</a></li>
+            <li><a href="{{ SITEURL }}/{{ FEED }}" rel="alternate">Atom</a></li>
+            {% if FEED_RSS %}
+            <li><a href="{{ SITEURL }}/{{ FEED_RSS }}" rel="alternate">Rss</a></li>
+            {% endif %}
+        {% for name, link in SOCIAL %}
+            <li><a href="{{ link }}">{{ name }}</a></li>
         {% endfor %}
         </ul>
-</li>
+    {% endif %}
+    <h3>标签</h3>
+    <ul>
+    {% for tag, articles in tags %}
+            <li><a href="{{ SITEURL }}/tag/{{ tag }}.html">{{ tag }}</a></li>
+    {% endfor %}
+    </ul>
     
   
   </div><!-- end #sidebar -->
