@@ -12,7 +12,7 @@
   {% include 'twitter.html' %}
       
       <h3 class="blogMeta">作者: <a href="#">{{ article.author }}</a>, 分类: <a href="{{ SITEURL }}/category/{{ article.category }}.html">{{ article.category }}</a></h3>
-	<h3 class="blogMeta">标签 : {% for tag in article.tags %}
+	<h3 class="blogMeta">标签: {% for tag in article.tags %}
 <span><a href="{{ SITEURL }}/tag/{{ tag }}.html">{{ tag }}</a> / </span>
 {% endfor %}</h3>
     
