@@ -43,7 +43,7 @@
 
   <div id="sidebar">
   	{% if DISPLAY_PAGES_ON_MENU %}
-	<h3>Pages</h3>
+	<h3>页面</h3>
 	<ul>
         {% for page in PAGES %}
             <li><a href="{{ SITEURL }}/pages/{{ page.url }}">{{ page.title }}</a></li>
@@ -58,7 +58,7 @@
 	</ul>
     {% if LINKS %}
 	<li>
-		<h3>Blogroll</h3>
+		<h3>链接</h3>
 		<ul>
 		{% for name, link in LINKS %}
                     <li><a href="{{ link }}">{{ name }}</a></li>
@@ -68,11 +68,11 @@
 	{% endif %}
 	{% if SOCIAL %}
         <li>
-                <h3>Social</h3>
+                <h3>关于作者</h3>
                 <ul>
-                    <li><a href="{{ SITEURL }}/{{ FEED }}" rel="alternate">Flux Atom</a></li>
+                    <li><a href="{{ SITEURL }}/{{ FEED }}" rel="alternate">Atom</a></li>
                     {% if FEED_RSS %}
-                    <li><a href="{{ SITEURL }}/{{ FEED_RSS }}" rel="alternate">Flux Rss</a></li>
+                    <li><a href="{{ SITEURL }}/{{ FEED_RSS }}" rel="alternate">Rss</a></li>
                     {% endif %}
                 {% for name, link in SOCIAL %}
                     <li><a href="{{ link }}">{{ name }}</a></li>
@@ -81,7 +81,7 @@
         </li><!-- /.social -->
         {% endif %}
 <li>
-        <h3>Tags</h3>
+        <h3>标签</h3>
         <ul>
         {% for tag, articles in tags %}
                 <li><a href="{{ SITEURL }}/tag/{{ tag }}.html">{{ tag }}</a></li>
@@ -102,8 +102,7 @@
 <div class="clearfloat"></div>
 
   <div id="footer">
-    <p><a href="http://css4free.com/" title="free CSS web site designs">Free CSS Gallery</a></p>
-    <p>Proudly powered by <a href="http://alexis.notmyidea.org/pelican/">pelican</a>, which takes great advantages of <a href="http://python.org">python</a>.
+    <p>基于使用<a href="http://python.org">Python</a>技术的<a href="http://alexis.notmyidea.org/pelican/">Pelican</a>程序搭建
   </div><!-- end #footer -->
 
 </div><!-- end #container -->
