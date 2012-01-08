@@ -1,0 +1,246 @@
+/* A Six Apart theme adapted for Movable Type default templates 
+original name: Minimalist Blue
+original designer:
+    Lilia Ahner  
+    url: http://lilia.vox.com/ 
+combined with(2012):
+    Waterspill: https://github.com/ametaireau/pelican-themes
+Mod by:
+    CNBorn http://cnborn.net
+    2009 for MovableType
+    2012 for Pelican
+*/
+
+* { margin: 0; padding: 0; }
+
+/* *** General Styles *** */
+
+body  {
+    color: #333;  
+    font: normal 13px arial, helvetica, hirakakupro-w3, osaka, "ms pgothic", sans-serif;
+}
+
+a {
+    color: #2d318a; 
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#header a,
+#topMenu a,
+.blogItem h2 a,
+.blogMeta a {
+	text-decoration: none;
+}
+
+#header a:hover {
+    text-decoration: underline;
+}
+
+p {
+	line-height: 1.5em;
+	padding: 5px 0 10px;
+}
+
+h1,
+h2,
+h3 { 
+	font-weight: normal;
+}
+
+blockquote {
+	font-size: 14px;
+	font-style: italic;
+	padding: 5px 0 5px 30px;
+}
+
+ul,
+ol {
+	line-height: 1.5em;
+    margin-left: 20px;
+}
+
+ol li {
+    padding-bottom: 10px;
+}
+
+/* *** Layout *** */
+
+#container { 
+	margin: 0 auto;
+	text-align: left;
+	width: 940px;
+} 
+
+#header { 
+    background: #1E5DBA url("../images/header.gif") repeat-x bottom right; 
+}
+
+#header-inner {
+    position: relative;
+    width: 940px; 
+    height: 40px;
+    margin: 0 auto;
+}
+
+#header a {
+    color: #fff;
+    font-weight: bold;
+}
+
+#header a:hover {
+    text-decoration: none;
+}
+
+
+#header-name {
+    color: #fff; 
+    font-size: 19px;
+    font-weight: bold;
+}
+
+#header-description {
+    color: #fff;  
+}
+
+#topMenu {
+	height: 24px;
+}
+
+#sidebar {
+	float: right;
+	padding: 20px 30px 10px 0;
+	width: 150px; 
+}
+
+#mainContent {
+	padding: 20px 225px 10px 0px;
+    color: #333;  
+    font-family: trebuchet ms;   
+    background-color: #fff; 
+} 
+
+#footer { 
+    background-color: #1e5dba; 
+	font-size: 12px;
+	height: 70px;
+	padding: 0 10px 0 20px;
+} 
+
+/* *** Header Styles *** */
+
+#header h1 {
+	font-size: 20px;
+	font-weight: bold;
+    color: white;
+    padding-top: 3px;
+}
+
+#header h2 {
+	font-size: 18px;
+	font-weight: normal;
+	text-align: left;
+}
+
+#header a:hover {
+	background: none;
+}
+
+/* *** Top Menu Styles *** */
+
+#topMenu ul {
+    margin-left: 0px;
+	font-size: 16px;
+	line-height: 1em;
+	list-style: none;
+	padding: 5px 5px 0 0;
+	text-align: left;
+}
+
+#topMenu li {
+	display: inline;
+}
+
+
+/* *** Blog Styles *** */
+
+.blogItem {
+	padding-bottom: 20px;
+}
+
+.blogItem h2,
+.blogItem h3 {
+	font-weight: normal;
+}
+
+.blogItem h2 a:hover,
+.blogItem h3 a:hover {
+	background: none;
+	text-decoration: underline;
+}
+
+.blogItem h2 {
+	font-size: 18px;
+}
+
+.blogItem h3 {
+	font-size: 14px;
+	padding-bottom: 6px;
+}
+
+.blogItem h3.blogMeta {
+	padding: 6px 0 0 0;
+	text-align: right;
+}
+
+/* *** Sidebar Styles *** */
+
+#sidebar h3 {
+	font-size: 24px;
+	font-weight: normal;
+}
+
+#sidebar ul {
+	line-height: 1.8em;
+	list-style: none;
+	padding-bottom: 20px;
+}
+
+#sidebar ul a {
+	text-decoration: none;
+}
+
+/* *** Comments Styles *** */
+
+#comments {
+	margin: 20px 0 0 20px;
+}
+
+#comments li {
+	margin-bottom: 10px;
+}
+
+/* *** Footer Styles *** */
+
+#footer p {
+	padding: 30px 0 0 0;
+}
+
+.floatR {
+	float: right;
+	margin-left: 8px;
+}
+
+.floatL { 
+	float: left;
+	margin-right: 8px;
+}
+
+.clearfloat {
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
