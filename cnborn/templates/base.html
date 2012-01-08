@@ -67,9 +67,9 @@
 	{% if SOCIAL %}
         <h3>关于作者</h3>
         <ul>
-            <li><a href="{{ SITEURL }}/{{ FEED }}" rel="alternate">Atom</a></li>
+            <li><a href="{{ SITEURL }}/{{ FEED }}" rel="alternate">ATOM</a></li>
             {% if FEED_RSS %}
-            <li><a href="{{ SITEURL }}/{{ FEED_RSS }}" rel="alternate">Rss</a></li>
+            <li><a href="{{ SITEURL }}/{{ FEED_RSS }}" rel="alternate">RSS</a></li>
             {% endif %}
         {% for name, link in SOCIAL %}
             <li><a href="{{ link }}">{{ name }}</a></li>
