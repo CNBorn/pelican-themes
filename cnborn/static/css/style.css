@@ -35,7 +35,7 @@ a:hover {
 	text-decoration: none;
 }
 
-#header a:hover {
+#header a:hover, #footer a:hover {
     text-decoration: underline;
 }
 
@@ -78,7 +78,7 @@ ol li {
     background: #1E5DBA url("../images/header.gif") repeat-x bottom right; 
 }
 
-#header-inner {
+#header-inner, #footer-inner {
     position: relative;
     width: 940px; 
     height: 40px;
@@ -125,9 +125,19 @@ ol li {
 #footer { 
     background-color: #1e5dba; 
 	font-size: 12px;
-	height: 70px;
-	padding: 0 10px 0 20px;
-} 
+	padding: 5px 10px 0 20px;
+}
+
+
+#footer-inner {
+    margin: 0 auto;
+    color: #fff;
+}
+
+#footer-inner a, #footer-inner a:visited {
+    color: white;
+}
+
 
 /* *** Header Styles *** */
 
@@ -223,10 +233,6 @@ ol li {
 }
 
 /* *** Footer Styles *** */
-
-#footer p {
-	padding: 30px 0 0 0;
-}
 
 .floatR {
 	float: right;
