@@ -3,7 +3,7 @@
 {% block content %} 
                         {% if articles %}
                         {% for article in articles %}        
-                            {% if loop.index == 1 %}
+                            {% if loop.index <= 3 %}
   	
     <div class="blogItem">
     
@@ -19,7 +19,7 @@
 {% endfor %}</h3>
     
     </div><!-- end #blogItem -->
- {% if loop.length  > 1 %}	
+ {% if loop.length  > 3 %}	
         <div class="blogItem">
                 <h2>其它文章</h2>
         </div>
