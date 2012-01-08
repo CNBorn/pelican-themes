@@ -81,8 +81,15 @@ ol li {
 #header-inner, #footer-inner {
     position: relative;
     width: 940px; 
-    height: 40px;
     margin: 0 auto;
+}
+
+#header-inner {
+    height: 50px;
+}
+
+#footer-inner {
+    height: 30px;
 }
 
 #header a {
@@ -145,7 +152,7 @@ ol li {
 	font-size: 20px;
 	font-weight: bold;
     color: white;
-    padding-top: 3px;
+    padding-top: 10px;
 }
 
 #header h2 {
