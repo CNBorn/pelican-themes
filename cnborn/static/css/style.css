@@ -60,6 +60,8 @@ ul,
 ol {
 	line-height: 1.5em;
     margin-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 ol li {
@@ -210,6 +212,11 @@ ol li {
 .blogItem h3.blogMeta {
 	padding: 6px 0 0 0;
 	text-align: right;
+}
+
+pre.literal-block {
+    padding: 20px;
+    background-color: lightgray;
 }
 
 /* *** Sidebar Styles *** */
