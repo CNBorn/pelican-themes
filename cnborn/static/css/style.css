@@ -17,7 +17,7 @@ Mod by:
 
 body  {
     color: #333;  
-    font: normal 13px arial, helvetica, sans-serif;
+    font: normal 1.15em arial, helvetica, sans-serif;
 }
 
 a {
@@ -40,7 +40,7 @@ a:hover {
 }
 
 p {
-	line-height: 1.5em;
+	line-height: 1.6em;
 	padding: 5px 0 10px;
 }
 
@@ -58,7 +58,7 @@ blockquote {
 
 ul,
 ol {
-	line-height: 1.5em;
+	line-height: 1.6em;
     margin-left: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -91,7 +91,7 @@ ol li {
 }
 
 #footer-inner {
-    height: 30px;
+    height: 65px;
 }
 
 #header a {
@@ -103,19 +103,8 @@ ol li {
     text-decoration: none;
 }
 
-
-#header-name {
-    color: #fff; 
-    font-size: 19px;
-    font-weight: bold;
-}
-
-#header-description {
-    color: #fff;  
-}
-
 #topMenu {
-	height: 24px;
+	height: 35px;
 }
 
 #sidebar {
@@ -133,7 +122,7 @@ ol li {
 
 #footer { 
     background-color: #1e5dba; 
-	font-size: 12px;
+	font-size: 0.8em;
 	padding: 5px 10px 0 20px;
 }
 
@@ -151,14 +140,14 @@ ol li {
 /* *** Header Styles *** */
 
 #header h1 {
-	font-size: 20px;
+	font-size: 1.25em;
 	font-weight: bold;
     color: white;
     padding-top: 10px;
 }
 
 #header h2 {
-	font-size: 18px;
+	font-size: 1.25em;
 	font-weight: normal;
 	text-align: left;
 }
@@ -171,8 +160,8 @@ ol li {
 
 #topMenu ul {
     margin-left: 0px;
-	font-size: 16px;
-	line-height: 1em;
+	font-size: 1.15em;
+	line-height: 1.6em;
 	list-style: none;
 	padding: 5px 5px 0 0;
 	text-align: left;
@@ -201,11 +190,11 @@ ol li {
 }
 
 .blogItem h2 {
-	font-size: 18px;
+	font-size: 1.25em;
 }
 
 .blogItem h3 {
-	font-size: 14px;
+	font-size: 0.8em;
 	padding-bottom: 6px;
 }
 
@@ -227,7 +216,7 @@ pre.literal-block {
 }
 
 #sidebar ul {
-	line-height: 1.8em;
+	line-height: 1.6em;
 	list-style: none;
 	padding-bottom: 20px;
 }
