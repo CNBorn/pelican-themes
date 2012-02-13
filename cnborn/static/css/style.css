@@ -40,7 +40,7 @@ a:hover {
 }
 
 p {
-	line-height: 1.6em;
+	line-height: 1.8em;
 	padding: 5px 0 10px;
 }
 
@@ -58,7 +58,7 @@ blockquote {
 
 ul,
 ol {
-	line-height: 1.6em;
+	line-height: 1.8em;
     margin-left: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -109,12 +109,12 @@ ol li {
 
 #sidebar {
 	float: right;
-	padding: 20px 30px 10px 0;
+	padding: 20px 10px 10px 0;
 	width: 150px; 
 }
 
 #mainContent {
-	padding: 20px 225px 10px 0px;
+	padding: 20px 185px 10px 0px;
     color: #333;  
     font-family: trebuchet ms;   
     background-color: #fff; 
@@ -161,7 +161,7 @@ ol li {
 #topMenu ul {
     margin-left: 0px;
 	font-size: 1.15em;
-	line-height: 1.6em;
+	line-height: 1.8em;
 	list-style: none;
 	padding: 5px 5px 0 0;
 	text-align: left;
@@ -216,7 +216,7 @@ pre.literal-block {
 }
 
 #sidebar ul {
-	line-height: 1.6em;
+	line-height: 1.8em;
 	list-style: none;
 	padding-bottom: 20px;
 }
