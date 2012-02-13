@@ -140,14 +140,14 @@ ol li {
 /* *** Header Styles *** */
 
 #header h1 {
-	font-size: 1.25em;
+	font-size: 1.15em;
 	font-weight: bold;
     color: white;
     padding-top: 10px;
 }
 
 #header h2 {
-	font-size: 1.25em;
+	font-size: 1.15em;
 	font-weight: normal;
 	text-align: left;
 }
@@ -190,7 +190,7 @@ ol li {
 }
 
 .blogItem h2 {
-	font-size: 1.25em;
+	font-size: 1.15em;
 }
 
 .blogItem h3 {
